@@ -30,7 +30,7 @@ def anim_data_or_null(foo):
   if foo == None:
     return "NULL"
   else:
-    return "&"+foo
+    return foo
 
 def write_spline(fh, curve, name, spline, num):
   if spline.type != 'NURBS':
